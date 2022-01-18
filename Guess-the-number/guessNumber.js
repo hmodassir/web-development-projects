@@ -38,7 +38,8 @@ function checking(user_number){
   }
   
 function start_again(){
+  if(chance == 0){
   chance = 11
-    enter_btn()
+    enter_btn()}
   
 }
