@@ -1,0 +1,33 @@
+body {
+  background: #f06d06;
+  color: white;
+  text-align: center;
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#btn-container {
+  margin-top: 30px;
+}
+button {
+  color: white;
+  background-color: teal;
+  margin: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  width: 200px;
+  font-size: 17px;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+#btn-result {
+  display: flex;
+  letter-spacing: 1.4px;
+  flex-direction: column;
+  border: 1px solid black;
+  margin-top: 30px;
+  font-size: 20px;
+  }
