@@ -1,6 +1,5 @@
-
 body{
-  background-color: teal;
+  background-color:#041C32;
   display: flex;
   align-content: center;
   justify-content: center;
@@ -11,22 +10,46 @@ body{
 }
 input{
   width: 100px;
+  border-radius: 10px;
+  outline: none;
   padding:10px;
 }
 h1{
   padding-bottom:10px;
   display: block;
   letter-spacing: 1px;
-  color: orange;
+  color: #EC255A;
 }
 button{
+  margin: 5px;
+  font-size: 15px;
+ 
+  
+}
+.btn1{
   padding: 10px;
   border-radius: 5px;
-  background-color: orange;
+  background-color: #EC255A;
+  border-radius:20px;
+  color: #041C32;
+  border: 2px solid #EC255A;
+  width: 100px;
+  padding:10px;
+}
+.btn2{
+   padding: 10px;
+  border-radius: 5px;
+  background-color: #041C32;
+  color: white;
+  border: 2px solid #EC255A;
+  border-radius:20px;
   width: 100px;
   padding:10px;
 }
 p{
   color:white;
   font-size: 2em;
+}
+#final_number_display{
+  color: #EC255A;
 }
