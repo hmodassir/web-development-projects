@@ -1,0 +1,52 @@
+.red{
+  color: red;
+  font-weight: bold;
+}
+body{
+  display: flex;
+  justify-content: center;
+
+  background-color: #90E0EF;
+}
+h1{
+  color: #03071E;
+  font-style: normal;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+}
+
+.container{
+  width: 650px;
+  margin-top: 100px;
+  background-color: #0096C7;
+  border: 5px dashed   #CAF0F8;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-style: italic;
+}
+input{
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+button{
+  background-color: #0077B6;
+  color: white ;
+  font-weight: bolder;
+  border: 1px solid #0077B6;
+  margin: 10px;
+  border-radius: 20px;
+  width: 200px;
+  font-size: 1.2em;
+  padding: 5px;
+  
+}
+p{
+  color:white;
+  font-size: 1.2em;
+}
