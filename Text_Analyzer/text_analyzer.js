@@ -12,11 +12,12 @@ let smallLetterText = "Small letter: "
 let numbersText = "Numbers: "
 let spaceText = "Spaces: "
 function btn(){
-  numberCount = 0
+  numbersCount = 0
   charactersCount = 0
   smallLetterCount = 0
   capitalLetterCount = 0 
-  
+  spacesCount = 0 
+  charactersCount =0
   for(let i=0;i<userInput.value.length;i++){
     if(userInput.value.codePointAt(i)>=65 & userInput.value.codePointAt(i)<=90){
       capitalLetterCount++;
