@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Josefin+Sans:wght@300;400&family=Montserrat:wght@400;500;600;700&family=Poppins&family=Roboto&family=Send+Flowers&family=Source+Code+Pro&display=swap');
+
+:root{
+				--primary-color:;
+}
+
+html{
+    
+				font-size: 10px;
+}
+*{
+				padding: 0;
+				margin: 0;
+			 font-family: 'Roboto';
+				box-sizing: border-box;
+				list-style: none;
+}
+a{
+				text-decoration: none;
+				color: black;
+}
+main{
+				position: relative;
+}
+
+.header{
+				display: flex;
+				
+				justify-content: space-around;
+				align-items: center ;
+				width: 100%;
+				height: 5.5rem;
+				
+				
+}
+
+.navbar-list{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				gap:4rem;
+				font-size: 1.4rem;
+}
+.header .logo{
+				font-family: 'Send Flowers';
+				font-size: 3rem;
+				font-weight: bold;
+				color: black;
+}
+form .input-search{ 
+     background: transparent;
+     padding: 1rem 0.5rem;
+     outline: blue;
+				border-radius: 0.5rem;
+				height: 3rem;
+				border: 1px solid black;
+}
+
+form .input-search::placeholder{
+				padding: 1rem 0.5rem;
+				
+}
+
+form button{
+     border: none;
+     background: transparent;
+     margin-left: 1rem;
+     height: 2.8rem;
+     box-shadow:  0 0 .5rem grey;
+     width: 6rem;
+				border-radius: 0.5rem;
+				
+}
+
+
+.grid-two-column{
+				display: grid;
+				grid-template-columns :1fr 1fr;
+}
+.img-section{
+     padding: 5rem 3.5rem;    
+				width: 100%;
+				height:70rem;
+}
+img{
+				width: 100%;
+				height: 100%;
+				
+}
+.about-us-info{
+				padding: 5rem 4rem;
+				
+}
+.about-heading{
+				font-size: 5rem;
+				font-weight: bold;
+				letter-spacing: .2rem;
+				text-align: center;
+				margin: 2rem ;
+}
+.para{
+				font-size: 2rem;
+				line-height: 2.8rem;
+				
+}
+.main{
+				background-color: whitesmoke;
+}
+/*
+.logo p{
+      font-size: 5rem;
+      background-color: white;
+				font-family: 'Send Flowers';
+				font-weight: bold;
+				letter-spacing: .3rem;
+				margin: 3rem 1rem;
+				text-align: center;
+}
+  */
