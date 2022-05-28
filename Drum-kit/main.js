@@ -9,9 +9,12 @@
 const btnA = document.querySelector('.key-a')
 const btnS = document.querySelector('.key-s')
 const btnD = document.querySelector('.key-d')
-const btnSpace = document.querySelector('.key-space')
+const btnH = document.querySelector('.key-h')
 const btnJ = document.querySelector('.key-j')
 const btnK = document.querySelector('.key-k')
+
+
+
 
 
 function snare() {
@@ -20,17 +23,8 @@ function snare() {
     snareSound.play();
     btnA.style.color = "dodgerblue"
     btnA.style.backgroundColor = "white"
-    
 
-}
 
-function kick() {
-
-    let kickSound = new Audio('sound/kick1.mp3')
-    kickSound.play()
-    btnSpace.style.color = "dodgerblue"
-    btnSpace.style.backgroundColor = "white"
-    
 }
 
 function crash() {
@@ -70,67 +64,52 @@ function tom4() {
     btnK.style.backgroundColor = "white"
     
 }
+function kick(){
+    let kickSound = new Audio('sound/kick1.mp3')
+    kickSound.play()
+    btnH.style.color = "dodgerblue"
+    btnH.style.backgroundColor = "white"
+}
+
 
 window.addEventListener('keydown', function(e) {
-    switch (e.code) {
-        case "KeyA":
-            snare()
+    switch (e.code) {   
         
+        case "KeyH":
+            kick()
             break;
-
-    }
-})
-
-window.addEventListener('keydown', function(e) {
-    switch (e.code) {
         case "KeyS":
             hitHat()
             break;
-
-    }
-})
-
-
-window.addEventListener('keydown', function(e) {
-    switch (e.code) {
+        case "KeyA":
+            snare()
+            break;
         case "KeyD":
             tom3()
             break;
-
-    }
-})
-
-window.addEventListener('keydown', function(e) {
-    switch (e.keyCode) {
-        case 32:
-            kick()
-            break;
-
-    }
-})
-
-
-window.addEventListener('keydown', function(e) {
-    switch (e.code) {
         case "KeyJ":
             crash()
             break;
-
-    }
-})
-
-window.addEventListener('keydown', function(e) {
-    switch (e.code) {
         case "KeyK":
-
             tom4()
             break;
+        
+    
+        
 
     }
 })
+
+
+
+
+
+
+
+
 window.addEventListener('keyup',function(){
-    const buttons = document.querySelectorAll('.btn').length
-    for(let i=0;i<buttons;i++){
+    const buttonL = document.querySelectorAll('.btn').length
+    for(let i=0;i<buttonL;i++){
         document.querySelectorAll('.btn')[i].style.color ='white'
         document.querySelectorAll('.btn')[i].style.backgroundColor = 'dodgerblue'
     }
@@ -144,10 +123,14 @@ window.addEventListener('mouseup',function(){
         document.querySelectorAll('.btn')[i].style.backgroundColor = 'dodgerblue'
     }
     
-})
-btnA.addEventListener('click',function(){
-    snare()
+ })
+// btnA.addEventListener('click',function(){
+//     snare()
+// })
 
+btnA.addEventListener('click',function(){
+    
+    snare()
 })
 
 btnS.addEventListener('click',function(){
@@ -158,7 +141,7 @@ btnD.addEventListener('click',function(){
     tom3()
 })
 
-btnSpace.addEventListener('click',function(){
+btnH.addEventListener('click',function(){
     kick()
 })
 
