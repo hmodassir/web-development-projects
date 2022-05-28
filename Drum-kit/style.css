@@ -1,0 +1,55 @@
+*{
+				padding: 0;
+				margin: 0;
+				box-sizing: border-box;
+}
+html{
+				font-size: 10px;
+}
+.main{
+				width: 100vw;
+				height: 50rem;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+}
+
+.btn-container{
+				max-width: 500rem;
+				height: 30rem;
+				display: flex;
+				justify-content: center;
+				
+				align-items: center;
+
+}
+.btn-container button{
+				width: 11rem;
+				height:11rem;
+				border: 2px solid dodgerblue;
+				border-radius:10px;
+				background-color:dodgerblue;
+				color: white;
+				text-transform: uppercase;
+				font-size: 1.8rem;
+				letter-spacing: 0.3;
+				font-weight:500; 
+				box-shadow:1rem 1rem 4rem  lightskyblue;
+}
+.para{
+				font-size: 2rem;
+				letter-spacing: 0.1;
+				margin: 2rem;
+				color:black;
+				
+				
+				
+}
+
+
+.drum-heading{
+    font-size: 4rem;
+    color: #98C8E5;
+    letter-spacing: .3rem;
+}
